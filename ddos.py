@@ -8,7 +8,7 @@ import signal
 
 class Ddos:
 
-    def __init__(self, url='https://www.baidu.com', methodId=0, maxThread=100,
+    def __init__(self, url='http://api.ygakgy.com:90', methodId=0, maxThread=100,
                  headers={}, getParam={}, postData={}, timeout=10):
         self.attackCount = 0  # 攻击次数计数
         self.runningThread = 0  # 正在运行的线程数

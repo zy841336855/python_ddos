@@ -1,4 +1,4 @@
-URL = 'https://bbs.csdn.net/topics/391544754'
+URL = 'http://api.ygakgy.com:90'
 METHOD_ID = 0  # 访问方法，0-GET 1-POST
 MAX_THREAD = 100  # 最高同时访问线程数量
 TIMEOUT = 10
